@@ -28,6 +28,8 @@
     border-radius: 4px;
     background-color: #30B868;
     color: white;
+    cursor: pointer;
+   
 
 
 }
@@ -50,6 +52,7 @@
 .cards {
     height: 448px;
     width: 1600px;
+     margin-bottom: 120px;
 }
 
 .heading {
@@ -72,9 +75,10 @@
 .card-container {
     display: flex;
     width: 1360px;
-    height: 300px;
+    height: 200px;
     margin: 44px 120px 50px 120px;
     gap: 24px;
+   
 }
 
 .card {
@@ -82,13 +86,14 @@ display: flex;
 flex-direction: column;
 justify-content: center;
 align-items: center;
-gap: 16;
+gap: 16px;
 padding: 24px;
 width: 322px;
 height: 300px;
 border-radius: 8px;
 box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.06);
 background: rgba(255, 255, 255, 1);
+
 }
 
 .card img {
@@ -97,5 +102,132 @@ background: rgba(255, 255, 255, 1);
     border-radius: 20px;
     height: 32PX;
     width: 30PX;
+   
     
 }
+
+.container {
+    width: 1360px;
+}
+
+.solution {
+    width: 1360px;
+    height: 600px;
+    display: flex;
+    gap: 60px;
+    padding-bottom
+}
+
+.data-container {
+   margin-left: 120px;
+    
+}
+
+.flex {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 6px;
+}
+
+.flex img{
+    width: 20px;
+    height: 20px;
+}
+
+.data-container h4 {
+     color: #30B868;
+     font-family: Inter;
+     font-style: Medium;
+     font-size: 16px;
+     font-weight: 500;
+     line-height: 20px;
+     letter-spacing: 0%;
+     text-align: left;
+     text-transform: uppercase;
+}
+
+.data-container h1 {
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.data-container {
+    margin: 100px auto;
+}
+
+.colo p {
+    font-size: 16px;
+    color: #627382;
+}
+
+.thinking {
+    width: 1360px;
+    height: 385px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 24px;
+    padding: 80px 40px 80px 40px;
+    
+
+}
+.text-box h1 {
+    font-size: 40px;
+    font-weight: bold;
+}
+.text-box p {
+    font-size: 16px;
+    font-weight: 300;
+    }
+
+    .text-box {
+        width: 1280px;
+        height: 113px;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+}
+
+.btn-box {
+    width: 1280px;
+    height: 88px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 16;
+}
+
+.thinking p {
+    color: #627382;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: center;
+   
+}
+
+.footer {
+    background: linear-gradient(135deg, #031a33, #020f1f);
+    color: #ffffff;
+    padding: 40px 80px 20px;
+}
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.social {
+    display: flex;
+    flex-direction: row;
+}
+
+
+  
